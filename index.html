@@ -1,26 +1,34 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>404</title>
-<style>
-	body{
-		background-color:#444;
-		font-size:14px;
-	}
-	h3{
-		font-size:60px;
-		color:#eee;
-		text-align:center;
-		padding-top:30px;
-		font-weight:normal;
-	}
-</style>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!--手机端-->
+  <link rel="stylesheet" type="text/css" href="css/style_phone.css" media="screen and (max-width: 960px)"/>
+  <!--电脑端-->
+  <link rel="stylesheet" type="text/css" href="css/style_PC.css" media="screen and (min-width: 960px)"/>
+  <link rel="shortcut icon" href="https://long.reincarnatey.net/favicon.ico" type="image/x-icon" />
+  <title>Hi, 我是珑！</title>
 </head>
-
 <body>
-<h3>404，您请求的文件不存在!</h3>
+  <div class="root"></div>
+  <div class="main-container">
+    <img class="headimg" src="./static/hi.png"/>
+	<div class="content">        
+	  <p id='msg1'>你……你好!</p>
+	  <p id='msg2'>我是生活在龙城高级中学里的妖精…那个…我的名字是<b>珑!</b></p>
+	  <p id='msg3'>一直在暗处观察了大家许久，终于决定和大家见面了!</p>
+	  <p id='msg4'>希望能够多了解大家的生活……总之请大家多多关照了! ! ! !</p>
+	  <p id='msg5'><b>♪(^∇^*)</b></p>
+	  <div class="button-container">
+	    <button id='btn1' onclick='location.href="https://long.reincarnatey.net/EatLong/"'>吃掉珑宝</button>
+	   <button id='btn2' onclick='location.href="https://long.reincarnatey.net/BigLong/"'>合成珑宝</button>
+	  </div>
+	</div>
+  </div>
+  <script>
+    var bg = Math.floor(Math.random()*5+1);
+	document.getElementsByClassName('root')[0].style.backgroundImage = `url(./static/bg/${bg}.jpg)`;
+  </script>
 </body>
 </html>

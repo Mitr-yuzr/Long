@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://xingye.me/game/eatkano"><img src="https://github.com/Mitr-yuzr/EatLong/blob/main/static/image/ClickBefore.png?raw=true" width="100" height="100" alt="EatKano"></a>
+  <a href="https://long.reincarnatey.net/BigLong/"><img src="https://long.reincarnatey.net/static/hi.png" width="100" height="100" alt="BigLong"></a>
 </p>
 <div align="center">
 
