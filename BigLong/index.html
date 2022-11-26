@@ -149,6 +149,7 @@
                 actualTotal();
                 var loadintT = document.getElementById("loadingText")
                 if (!loadintT) {
+					loadintGif.remove();
                     return;
                 }
                 loadintT.innerHTML = 'loading......' + parseInt(tempSeconds) + '%';
@@ -230,7 +231,6 @@
                 document.body.removeChild(cocos2d);
                 cocos2d.removeEventListener('load', engineLoaded, false);
                 window.boot();
-				loadintGif.remove();
             };
             cocos2d.addEventListener('load', engineLoaded, false);
             document.body.appendChild(cocos2d);
