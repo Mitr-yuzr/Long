@@ -84,7 +84,7 @@
         <!-- </div> -->
     </div>
 
-    <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
+    <div id="loadingImg" style="top:45%;width: 100%;position:absolute;">
         <img src="res/loading.gif" width="20%" height="20%" />
     </div>
 
@@ -119,7 +119,7 @@
         var loadintT = document.getElementById("loadingText");
         var loadintGif = document.getElementById("loadingImg")
         setTimeout(function() {
-            //loadintGif.remove();
+            loadintGif.remove();
             loadintT.style.display = ""
             updateLabView(0.1);
         }, 1 * 1000)
@@ -149,7 +149,7 @@
                 actualTotal();
                 var loadintT = document.getElementById("loadingText")
                 if (!loadintT) {
-					loadintGif.remove();
+					//loadintGif.remove();
                     return;
                 }
                 loadintT.innerHTML = 'loading......' + parseInt(tempSeconds) + '%';
