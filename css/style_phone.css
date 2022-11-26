@@ -16,6 +16,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 img {
@@ -39,7 +41,8 @@ img {
 }
 
 .main-container {
-  height: 90%;
+  height: auto;
+  min-height: 90%;
   width: 80%;
   background-color: rgba(255, 255, 255, 0.9);
   font-size: 0;
@@ -60,8 +63,8 @@ img {
 }
 
 #msg1 {
-	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 40px;
 }
 
 #msg2 {
@@ -81,7 +84,7 @@ img {
 }
 
 .button-container {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -103,6 +106,7 @@ img {
 
 .button-container #btn2 {
     margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .button-container button:hover {
