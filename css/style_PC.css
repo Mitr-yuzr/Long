@@ -103,6 +103,10 @@ body {
     margin-left: 30px;
 }
 
+.button-container #btn3 {
+    margin-left: 30px;
+}
+
 .button-container button:hover {
     border: 1px solid rgba(251, 128, 71, 0.7);
     background: rgba(251, 128, 71, 0.5);
