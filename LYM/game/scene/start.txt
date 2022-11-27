@@ -1,0 +1,43 @@
+intro:在体艺节宣布延期的前一个周末……
+changeBg:bg.jpg -next;
+unlockCg:title.jpg -name=珑与猫;
+unlockCg:bg.jpg -name=校园;
+unlockBgm:s_Title.mp3 -name=Smiling-Swinging!!;
+bgm:cb1.mp3;
+unlockBgm:cb1.mp3 -name=ひとすじの光明;
+:……;
+因为开幕式排练摸鱼，所以“自愿”留校加练……;
+可恶，又不是只有我一个摸鱼，怎么只有我留下来加练！;
+……;
+……;
+嗯？;
+好像有人……？;
+changeFigure:0.png -next;
+setAnimation:enter -target=fig-center -next;
+:……;
+是个女生……也是留校的吗？;
+changeFigure:1.png -next;
+:好像在逗猫……;
+？？？:！;
+changeFigure:2.png -next;
+？？？:学生？;
+:啊？;
+setAnimation:exit -target=fig-center -next;
+changeFigure:none;
+:……;
+:跑掉了……;
+choose:真奇怪的人啊……:c1|（追上去）:c2;
+
+label:c2;
+:……;
+
+label:c1;
+:算了，不管她。
+赶紧解决然后回家最重要。;
+jumpLabel:end;
+
+label:end;
+intro:结束了……;
+intro:……;
+intro:悄悄告诉你：|据说在周六早上六点可以看到珑宝在操场荡秋千哦？;
+end;

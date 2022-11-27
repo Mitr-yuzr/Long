@@ -1,0 +1,5 @@
+Game_name:珑与猫;
+Game_key:long2022lym;
+Title_img:title.jpg;
+Title_bgm:s_Title.mp3;
+Loading_img:;
