@@ -17,8 +17,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  #margin-top: 10%;
+  #margin-bottom: 10%;
 }
 
 img {
@@ -42,8 +42,8 @@ img {
 }
 
 .main-container {
-  height: auto;
-  min-height: 90%;
+  height: 90%;
+  #min-height: 90%;
   width: 80%;
   background-color: rgba(255, 255, 255, 0.9);
   font-size: 0;
@@ -52,6 +52,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: scroll;
+}
+
+.main-container::-webkit-scrollbar {/*滚动条整体样式*/
+    -webkit-appearance: none;
+	display: none;
 }
 
 .main-container .content p {
@@ -122,8 +128,9 @@ img {
 .tip-container {
   #position: absolute;
   width: 100%;
-  bottom:0;
-  margin-top: 10px;
+  bottom: 20px;
+  #margin-top: 10px;
+  margin-bottom: 10px;
   display: column;
   justify-content: center;
   align-items: center;

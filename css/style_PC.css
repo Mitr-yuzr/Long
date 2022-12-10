@@ -19,8 +19,10 @@ body {
 }
 
 .headimg {
-	width: auto;
-	max-height: 80%;
+	display: inline-block;
+	height: auto;
+	max-width: 80%;
+	float: left;
 }
 
 .root {
